@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58309cff87.js" crossorigin="anonymous"></script>
+    <title>Kontakt</title>
+</head>
+<body>
+<header>
+    <hr>
+    <p class="welcomeText"><strong>Herzlich willkommen im Zoo Seewiesen!</strong><br><i class="fa-solid fa-paw"></i></p>
+    <br>
+    <nav>
+        <i class="fa-sharp fa-solid fa-house"></i> <a href="index.html">Main</a> <br>
+        <i class="fa-sharp fa-solid fa-file"></i> <a href="infoPage.html">Bewohner</a><br>
+        <i class="fa-sharp fa-solid fa-envelope"></i> <a href="contactUs.html">Kontakt</a>
+    </nav>
+
+    <section class="zooPicture"><img src="/media/leopard.PNG"
+                                     alt="Ein Leopard in der Savanne, welcher über seine Schulter etwas am Betrachter vorbei blickt..">
+    </section>
+    <hr>
+</header>
+
+<hr>
+
+<section class="Contact">
+    <h2 id="Contact">Kontaktieren Sie uns!</h2>
+    <hr>
+
+    <h3>Würden Sie uns weiterempfehlen?</h3>
+
+    <form>
+        <input type="radio" id="gefallenJa" name="empfehlen" value="ja">
+        <label for="gefallenJa">ja</label><br>
+        <input type="radio" id="gefallenNein" name="empfehlen" value="nein">
+        <label for="gefallenNein">nein</label><br>
+    </form>
+
+
+    <h3>Hat es Ihnen gefallen?</h3>
+
+    <input type="range" id="points" name="points" min="0" max="10">
+
+
+    <h3>Welche Attraktion hat Ihnen am besten gefallen?</h3>
+
+    <label for="tierarten">Wählen Sie hier die Spezies:</label>
+    <input list="tierarten" name="tierarten" id="Tiere">
+
+    <datalist id="tierarten">
+        <option value="Löwen">
+        <option value="Königsgeparden">
+        <option value="Tüpfelhyäne">
+        <option value="Dsungarischer Zwerghamster">
+        <option value="Japanischer Kranich">
+        <option value="Elefanten">
+        <option value="Mongolische Wildpferde">
+        <option value="Eisbären">
+        <option value="Robben">
+        <option value="Grauwölfe">
+        <option value="Schakale">
+        <option value="Fennek-Füchse">
+        <option value="Mufflon">
+        <option value="Europäisches Haushuhn">
+        <option value="Otter">
+        <option value="Orang Utan">
+        <option value="Nil-Krokodile">
+        <option value="Fledermaus-Hütte">
+        <option value="Insektenhaus">
+        <option value="Aquarium">
+    </datalist>
+
+    <br>
+    <br>
+    <hr>
+
+
+    <h3>Wann haben Sie uns besucht?</h3>
+
+    <input type="datetime-local" id="besuchszeitpunkt"
+           name="besuchszeitpunkt" value="2018-06-12T19:30"
+           min="1967-06-07T00:00" max="2023-02-14T00:00">
+
+    <br>
+    <br>
+    <label for="besuchsinfo">Wie waren Sie unterwegs?:</label>
+
+    <select name="besuchsinfo" id="besuchsinfo">
+        <option value="Familienausflug">Familienausflug</option>
+        <option value="Alleine">Alleine</option>
+        <option value="Mit Freunden">Mit Freunden</option>
+        <option value="Gruppenausflug">In der Gruppe</option>
+        <option value="Anderes">Etwas anderes</option>
+    </select>
+    <br>
+
+
+    <br>
+
+    <label class="form" for="fullname">Name</label>
+    <input class="form"
+           type="text"
+           id="fullname"
+           name="fullname"
+           placeholder="Ihr Name"
+           pattern="[a-z][A-Z]"
+           title="Nur Groß- und Kleinbuchstaben erlaubt."
+           required
+    > <br>
+    <br>
+    <label class="form" for="email">E-Mail</label>
+    <input class="form" type="email" id="email" placeholder="Your email" required><br>
+    <br>
+
+    <textarea class="form" name="Kommentar" rows="10" cols="40"> Hinterlassen Sie uns ein Kommentar! </textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit"> <input type="reset" value="Reset">
+
+</section>
+
+
+<hr>
+<footer>
+
+    <ul>
+        <li>Presse</li>
+        <li>Datenschutz</li>
+        <li>Spenden</li>
+        <li>Partner werden</li>
+    </ul>
+
+    <ul>
+        <li>Jobs</li>
+        <li>Gastronomie</li>
+        <li>Veranstaltungskalender</li>
+        <li>Naturschutz & Kooperationen</li>
+    </ul>
+
+</footer>
+<hr>
+
+</body>
+</html>

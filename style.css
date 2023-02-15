@@ -1,0 +1,203 @@
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/51/abstract-1869996_1280.jpg");
+    background-repeat: round;
+    font-family: "Corbel Light", sans-serif;
+    color: wheat;
+    background-color: #2B2B2B;
+    padding: 20px;
+    margin: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    background-color: #413F42;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+}
+
+.textTable {
+    background-color: #413F42;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+}
+
+table {
+    width: 100%
+}
+td {
+    padding: 2px;
+    padding-right: 7%;
+}
+
+tr {
+    padding-right: 7%;
+}
+
+
+nav a {
+    padding-right: 3%;
+    padding-left: 1%;
+}
+
+header {
+    background-color: #BE8C63;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    font-family: "Corbel Light", sans-serif;
+    font-size: 160%;
+
+}
+
+nav {
+    padding: 0;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+header img {
+    border-radius: 90px;
+    opacity: 0.9;
+    margin-top: 5%;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.natGeo {
+    background-color: #413F42;
+    border-radius: 10px;
+    padding-right: 16%;
+    padding-bottom: 10px;
+    margin: 1%;
+}
+
+iframe {
+    box-shadow: 10px 10px 5px #2B2B2B;
+}
+
+hr {
+    border-style: none none solid;
+    max-width: 70%;
+    color: wheat;
+    margin-bottom: 13px;
+    padding-bottom: 5px;
+}
+
+a:link {
+    color: #3C2317;
+}
+
+a:visited, a:hover {
+    color: maroon;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #BE8C63;
+    border-radius: 10px;
+    padding: 1px;
+    margin: auto;
+    width: 70%;
+}
+
+label.form {
+    padding-bottom: 3px;
+}
+
+.history, .Tierarten {
+    font-size: 120%;
+    margin-left: 3%;
+}
+
+
+.Tierarten p, dt {
+    font-weight: bold;
+}
+
+
+.Tierarten dd {
+    margin-bottom: 1em;
+}
+
+.Contact {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px;
+
+    margin-bottom: 25px;
+    max-width: 80%;
+    padding: 3px;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    border-radius: 25px;
+    background-color: #413F42;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Contact h2 {
+    padding-top: 4px;
+}
+
+.welcomeText {
+    font-size: 140%;
+    margin-right: 3px;
+    /* color: #3C2317; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.fa-paw {
+    font-size: 170%;
+    padding-top: 5px;
+    color: #413F42;
+}
+
+.fa-sharp {
+    color: #413F42;
+    font-size: 90%;
+    margin-top: 1px;
+}
+
